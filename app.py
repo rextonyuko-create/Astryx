@@ -9,7 +9,7 @@ load_dotenv()
 
 GROQ_API_KEY = os.getenv('GROQ_API_KEY')
 WEATHER_API_KEY = os.getenv('WEATHER_API_KEY')
-GROQ_MODEL = "llama3-8b-8192"
+GROQ_MODEL = "llama-3.1-8b-instant"
 DB_PATH = "/tmp/chat_history.db"
 
 st.set_page_config(page_title="Astryx", page_icon="✦", layout="wide")
