@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 import groq
 
 # Load environment variables
-load_dotenv('.env')
+load_dotenv('.env', override=True)
 
 # Groq configuration
 GROQ_API_KEY = os.getenv('GROQ_API_KEY')
